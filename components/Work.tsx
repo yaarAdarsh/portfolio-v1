@@ -5,12 +5,14 @@ import MockScreen from "./MockScreen";
 
 const projects = [
   {
-    title: "Project One",
-    what: "One sentence on what it does and who it's for. Lead with the problem it solves, not the framework you used.",
+    title: "Vyapar Pustika",
+    what: "Procurement management system supporting end-to-end workflows for Requisitions, Indents, Enquiries, Quotations and Purchase Orders.",
     points: [
       <>
         Replace with a result:{" "}
-        <b className="text-text font-medium">cut page load from 4.2s to 900ms</b>{" "}
+        <b className="text-text font-medium">
+          cut page load from 4.2s to 900ms
+        </b>{" "}
         by moving rendering server-side.
       </>,
       "Name the hard part you solved, not the CRUD you wrote.",
@@ -19,7 +21,7 @@ const projects = [
         <b className="text-text font-medium">~2,000 monthly users</b>.
       </>,
     ],
-    tags: ["TypeScript", "Next.js", "Postgres", "Prisma", "Vercel"],
+    tags: ["TypeScript", "Next.js", "Postgres", "Lucide", "Vercel"],
     links: [
       { label: "Live site", href: "#" },
       { label: "Source code", href: "#" },
@@ -98,7 +100,11 @@ export default function Work() {
                 </div>
                 <div className={i % 2 === 1 ? "md:order-1" : ""}>
                   <ProjectVisual>
-                    <MockScreen />
+                    <img
+                      src="/project1.png"
+                      alt="Vyapar Pustika screenshot"
+                      className="block w-full h-full object-cover shadow-white shadow-sm"
+                    />
                   </ProjectVisual>
                 </div>
               </div>

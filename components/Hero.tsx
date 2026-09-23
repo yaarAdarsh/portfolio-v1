@@ -86,7 +86,7 @@ export default function Hero() {
                   href="/resume.pdf"
                   className="px-6 py-3 rounded-lg text-sm font-medium bg-raise/70 border border-line hover:border-dim hover:bg-raise transition"
                 >
-                  Download résumé
+                  Download resume
                 </a>
               </div>
             </Reveal>
@@ -95,7 +95,7 @@ export default function Hero() {
               <div className="flex flex-wrap gap-8 sm:gap-10 border-t border-linesoft pt-8">
                 <div>
                   <div className="font-display font-bold text-2xl text-amber">
-                    <CountUp target={2} suffix="+" />
+                    <CountUp target={1} suffix="+" />
                   </div>
                   <div className="text-sm text-muted mt-1">
                     Years in production
@@ -127,10 +127,10 @@ export default function Hero() {
             @keyframes blob3 { 0%,100%{transform:translate(0,0) scale(1)} 50%{transform:translate(-15px,15px) scale(0.95)} }
             @keyframes cursor-blink { 0%,100%{opacity:1} 50%{opacity:0} }
             .cursor-blink { animation: cursor-blink 1s step-end infinite; }
-            @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-12px)} }
+            @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-20px)} }
             .float-anim { animation: float 4s ease-in-out infinite; }
             @keyframes spin-slow { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
-            .spin-slow { animation: spin-slow 20s linear infinite; }
+            .spin-slow { animation: spin-slow 10s linear infinite; }
             ::-webkit-scrollbar { width: 6px; }
             ::-webkit-scrollbar-track { background: #0D0A1A; }
             ::-webkit-scrollbar-thumb { background: rgba(168,85,247,0.2); border-radius: 3px; }
@@ -236,6 +236,13 @@ export default function Hero() {
                     top: "-20%",
                     right: "20%",
                   },
+                  {
+                    label: "TypeScript",
+                    color: "#EAB308",
+                    top: "15%",
+                    right: "100%",
+                  }
+                  
                 ].map((b) => (
                   <div
                     key={b.label}

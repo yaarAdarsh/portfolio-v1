@@ -39,9 +39,9 @@ export default function About() {
               </p>
             </div>
             <dl className="flex flex-row flex-wrap md:flex-col gap-6 md:gap-6 border-t md:border-t-0 md:border-l border-line pt-6 md:pt-0 md:pl-6">
-              <Fact label="Based in" value="Bengaluru, India · open to remote" />
-              <Fact label="Currently" value="Software Engineer, Company Name" />
-              <Fact label="Focus" value="TypeScript, React, Node, Postgres" />
+              <Fact label="Based in" value="Kanpur, India · open to remote" />
+              <Fact label="Currently" value="Software Engineer, Dataman Computer Systems Pvt. Ltd." />
+              <Fact label="Focus" value="Development, AI Automation, Data Analyst, Database Design" />
               <Fact label="Learning" value="Go, distributed systems" />
             </dl>
           </div>

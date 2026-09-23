@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-linesoft py-14 md:py-16">
       <div className="max-w-[1280px] mx-auto px-6 sm:px-8">
-        <div className="grid md:grid-cols-[1.3fr_1fr_1fr] gap-10 mb-10">
+        <div className="grid grid-cols-[1.3fr_1fr_1fr] gap-10 mb-10">
           <div>
             <p className="font-display font-bold text-xl tracking-tight mb-2.5">
               Adarsh Sahu
