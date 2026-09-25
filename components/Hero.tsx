@@ -83,7 +83,8 @@ export default function Hero() {
                   See my work
                 </a>
                 <a
-                  href="/resume.pdf"
+                  target="blank"
+                  href="/Adarsh_Sahu_Resume.pdf"
                   className="px-6 py-3 rounded-lg text-sm font-medium bg-raise/70 border border-line hover:border-dim hover:bg-raise transition"
                 >
                   Download resume
@@ -241,8 +242,7 @@ export default function Hero() {
                     color: "#EAB308",
                     top: "15%",
                     right: "100%",
-                  }
-                  
+                  },
                 ].map((b) => (
                   <div
                     key={b.label}

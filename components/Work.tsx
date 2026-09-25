@@ -21,10 +21,10 @@ const projects = [
         <b className="text-text font-medium">~2,000 monthly users</b>.
       </>,
     ],
-    tags: ["TypeScript", "Next.js", "Postgres", "Lucide", "Vercel"],
+    tags: ["TypeScript", "Next", "Node", "Express", "Postgres", "Lucide"],
     links: [
-      { label: "Live site", href: "#" },
-      { label: "Source code", href: "#" },
+      { label: "Live site", href: "https://vyapar-pustika.vercel.app/" },
+      { label: "Source code", href: "https://github.com/yaarAdarsh/vyapar_pustika" },
     ],
   },
   {
