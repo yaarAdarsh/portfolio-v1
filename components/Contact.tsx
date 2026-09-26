@@ -197,10 +197,10 @@ export default function Contact() {
               <p className="font-mono text-xs text-dim mt-4">
                 Or write directly to{" "}
                 <a
-                  href="mailto:adarshsahu13@email.com"
+                  href="mailto:adarshsahu1310@email.com"
                   className="text-amber border-b border-amber/15"
                 >
-                  adarshsahu13@email.com
+                  adarshsahu1310@email.com
                 </a>
               </p>
 
