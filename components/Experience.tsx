@@ -3,24 +3,24 @@ import SectionHeading from "./SectionHeading";
 
 const roles = [
   {
-    when: "2024 — Present",
-    title: "Software Engineer",
-    where: "Company Name",
+    when: "2025 — Present",
+    title: "Associate Software Developer",
+    where: "Dataman Computer Systems Pvt. Ltd.",
     points: [
-      "What you own, in plain terms — the system, not the ticket.",
-      "One outcome with a number in it.",
-      "Something showing range: code review, on-call, mentoring, a migration you led.",
+      "Fullstack web developer working with Next js, Tailwind CSS, Node js, sql, etc. to build end-to-end ERP softwares for paper industry.",
+      "Software used in more that 20 states and 5 countries serving 1000+ customers.",
+      "Migrated whole project to latest technologies for better scaling and reliability.",
     ],
   },
-  {
-    when: "2023 — 2024",
-    title: "Junior Engineer",
-    where: "Company Name",
-    points: [
-      "Keep earlier roles to two lines — the top entry gets read, the rest get skimmed.",
-      "Drop coursework once you have real roles to show.",
-    ],
-  },
+  // {
+  //   when: "2023 — 2024",
+  //   title: "Junior Engineer",
+  //   where: "Company Name",
+  //   points: [
+  //     "Keep earlier roles to two lines — the top entry gets read, the rest get skimmed.",
+  //     "Drop coursework once you have real roles to show.",
+  //   ],
+  // },
 ];
 
 export default function Experience() {

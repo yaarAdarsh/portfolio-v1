@@ -3,19 +3,19 @@ import SectionHeading from "./SectionHeading";
 
 const items = [
   {
-    when: "2019 — 2023",
-    title: "B.Tech, Computer Science",
-    desc: "University Name — replace with your degree and institution.",
+    when: "2021 — 2025",
+    title: "B.Tech, Computer Science (AI)",
+    desc: "CSJM University, Kanpur.",
   },
   {
     when: "2024",
-    title: "AWS Certified Developer",
-    desc: "Or swap for whatever certification is actually relevant to you.",
+    title: "ML Certification",
+    desc: "Completed ML course by Andrew Ng from cousera.",
   },
   {
-    when: "2023",
-    title: "Relevant coursework or bootcamp",
-    desc: "Optional — drop this card if you'd rather keep the section to two.",
+    when: "2025",
+    title: "DSA",
+    desc: "Solved 500+ questions on LeetCode having max rating 1709.",
   },
 ];
 

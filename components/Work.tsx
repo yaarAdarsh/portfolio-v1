@@ -6,47 +6,55 @@ import MockScreen from "./MockScreen";
 const projects = [
   {
     title: "Vyapar Pustika",
-    what: "Procurement management system supporting end-to-end workflows for Requisitions, Indents, Enquiries, Quotations and Purchase Orders.",
+    what: "End-to-end procurement management system for Requisitions, Indents, Enquiries, Quotations, and Purchase Orders.",
     points: [
       <>
-        Replace with a result:{" "}
-        <b className="text-text font-medium">
-          cut page load from 4.2s to 900ms
-        </b>{" "}
-        by moving rendering server-side.
+        Features{" "}
+        <b className="text-text font-medium">permission-based authorization</b>{" "}
+        for vendors, dealers, and employees, enabling controlled access across
+        different stages of the procurement workflow.
       </>,
-      "Name the hard part you solved, not the CRUD you wrote.",
+      "Designed the database schema manually and implemented multi-level approval workflows, enabling faster and more streamlined operations.",
       <>
-        Scale, if you have it:{" "}
+        Can easily handle:{" "}
         <b className="text-text font-medium">~2,000 monthly users</b>.
       </>,
     ],
     tags: ["TypeScript", "Next", "Node", "Express", "Postgres", "Lucide"],
     links: [
       { label: "Live site", href: "https://vyapar-pustika.vercel.app/" },
-      { label: "Source code", href: "https://github.com/yaarAdarsh/vyapar_pustika" },
+      {
+        label: "Source code",
+        href: "https://github.com/yaarAdarsh/vyapar_pustika",
+      },
     ],
+    img: "/project1.png",
+    alternate: "Vyapar Pustika screenshot",
   },
   {
-    title: "Project Two",
-    what: "Second project. Aim for contrast — if the first was frontend-heavy, make this one backend or infrastructure.",
+    title: "Sentimental Attendance System",
+    what: "AI powered attendace system which recommends Songs and Shayari based on your mood.",
     points: [
-      "Something measurable about reliability, correctness or cost.",
-      "A design decision you made, and why you made it that way.",
+      "Uses OpenCV and ML model for facial detection and categorise facial expressions in 6 mood.",
+      "Recommends music tracks based on the detected mood.",
+      "Recommends poetry based on the detected mood.",
+      "Also provides a Flask API endpoint for integrating the model with other applications."
     ],
     tags: ["Node", "Express", "Redis", "Docker", "AWS"],
     links: [
-      { label: "Live site", href: "#" },
-      { label: "Source code", href: "#" },
+      { label: "Live site", href: "https://github.com/yaarAdarsh/SentimentalAttendanceSystem" },
+      { label: "Source code", href: "https://github.com/yaarAdarsh/SentimentalAttendanceSystem" },
     ],
+    img: "/project2.png",
+    alternate: "Attendance System screenshot",
   },
-  {
-    title: "Project Three",
-    what: "Smaller is fine here. A tool you built to scratch your own itch usually reads better than an unfinished clone of something famous.",
-    points: ["One or two lines is plenty for a third project."],
-    tags: ["Python", "FastAPI", "SQLite"],
-    links: [{ label: "Source code", href: "#" }],
-  },
+  // {
+  //   title: "Project Three",
+  //   what: "Smaller is fine here. A tool you built to scratch your own itch usually reads better than an unfinished clone of something famous.",
+  //   points: ["One or two lines is plenty for a third project."],
+  //   tags: ["Python", "FastAPI", "SQLite"],
+  //   links: [{ label: "Source code", href: "#" }],
+  // },
 ];
 
 export default function Work() {
@@ -89,6 +97,7 @@ export default function Work() {
                   <div className="flex gap-6 text-sm font-medium">
                     {p.links.map((l) => (
                       <a
+                        target="blank"
                         key={l.label}
                         href={l.href}
                         className="border-b border-amber/15 hover:text-amber hover:border-amber transition pb-0.5"
@@ -101,8 +110,8 @@ export default function Work() {
                 <div className={i % 2 === 1 ? "md:order-1" : ""}>
                   <ProjectVisual>
                     <img
-                      src="/project1.png"
-                      alt="Vyapar Pustika screenshot"
+                      src={p.img}
+                      alt={p.alternate}
                       className="block w-full h-full object-cover shadow-white shadow-sm"
                     />
                   </ProjectVisual>

@@ -87,7 +87,7 @@ export default function Hero() {
                   href="/Adarsh_Sahu_Resume.pdf"
                   className="px-6 py-3 rounded-lg text-sm font-medium bg-raise/70 border border-line hover:border-dim hover:bg-raise transition"
                 >
-                  Download resume
+                  Download Résumé
                 </a>
               </div>
             </Reveal>

@@ -37,22 +37,22 @@ export default function Footer() {
             <h4 className="text-muted text-sm mb-4">Elsewhere</h4>
             <ul className="space-y-2.5">
               <li>
-                <a href="https://github.com/yourhandle" className="text-sm hover:text-amber transition">
+                <a href="https://github.com/yaarAdarsh" className="text-sm hover:text-amber transition">
                   GitHub
                 </a>
               </li>
               <li>
-                <a href="https://linkedin.com/in/yourhandle" className="text-sm hover:text-amber transition">
+                <a href="https://www.linkedin.com/in/adarshsahu1310/" className="text-sm hover:text-amber transition">
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href="mailto:you@email.com" className="text-sm hover:text-amber transition">
+                <a href="mailto:adarshsahu1310@email.com" className="text-sm hover:text-amber transition">
                   Email
                 </a>
               </li>
               <li>
-                <a href="/resume.pdf" className="text-sm hover:text-amber transition">
+                <a href="/Adarsh_Sahu_Resume.pdf" className="text-sm hover:text-amber transition">
                   Résumé (PDF)
                 </a>
               </li>
