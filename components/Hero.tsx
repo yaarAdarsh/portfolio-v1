@@ -54,7 +54,7 @@ export default function Hero() {
             <Reveal>
               <div className="inline-flex items-center gap-2 font-mono text-xs text-muted border border-line rounded-full px-4 py-1.5 mb-8 bg-raise/60">
                 <span className="w-1.5 h-1.5 rounded-full bg-amber animate-pulse" />
-                Available for software developer roles
+                Available for SDE roles
               </div>
             </Reveal>
 
