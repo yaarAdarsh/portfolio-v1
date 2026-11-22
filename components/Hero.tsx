@@ -84,7 +84,7 @@ export default function Hero() {
                 </a>
                 <a
                   target="blank"
-                  href="/Adarsh_Sahu_Resume.pdf"
+                  href="/Adarsh_Sahu_Resu.pdf"
                   className="px-6 py-3 rounded-lg text-sm font-medium bg-raise/70 border border-line hover:border-dim hover:bg-raise transition"
                 >
                   Download Résumé

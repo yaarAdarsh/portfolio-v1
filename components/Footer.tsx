@@ -52,7 +52,7 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="/Adarsh_Sahu_Resume.pdf" className="text-sm hover:text-amber transition">
+                <a href="/Adarsh_Sahu_Resu.pdf" className="text-sm hover:text-amber transition">
                   Résumé (PDF)
                 </a>
               </li>
